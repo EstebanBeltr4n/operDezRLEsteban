@@ -56,7 +56,6 @@ int main() {
         printf("\tEl valor inicial del numero binario es: %d\n", x1);
         x1 = x1 << 1;  // Desplazamos los bits una posición a la izquierda
 
-        //Utilizacion de funcion de convertir decimal a bintario
         printf("\tEl nuevo valor de x en binario es: ");
         decimalToBinary(x);
         printf("\n");
